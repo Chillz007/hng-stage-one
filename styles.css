@@ -70,12 +70,16 @@ footer {
 /* Responsive Design */
 @media (max-width: 600px) {
   main {
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 0;
   }
 
   .goal {
     padding: 0.5rem;
+  }
+
+  .goal h2 {
+    text-wrap: wrap;
   }
 
   h1 {
